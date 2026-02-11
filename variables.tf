@@ -13,7 +13,7 @@ EOT
     password            = string
     scoped_resource_id  = string
     username            = string
-    provisioning_action = optional(string, "install")
+    provisioning_action = optional(string) # Default: "install"
   }))
 }
 
